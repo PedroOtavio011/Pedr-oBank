@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PedrãoBank</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="imagens/favicon-96x96.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        
+        <img src="imagens/logo.png" alt="logo do banco">
+        <h1>PedrãoBank</h1>
+        <div class="botoes">
+            <div class="depositar"><input type="submit" value="Depositar" onclick="depositar()"></div>
+            <div class="sacar"><input type="submit" value="Sacar" onclick="sacar()"></div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <h2>Minhas financias</h2>
+            <div class="menuprincipal">
+                <div class="contaCorrente">
+                    <h3>CONTA CORRENTE</h3>
+                    <p class="dinheiro">R$ 0,00</p>
+                </div>
+                <div class="controleGastos">
+                    <h3>CONTROLE DE GASTOS</h3>
+                    <p class="controle">R$ - 0,00</p>
+                </div>
+                <div class="investimentos">
+                    <h3>INVESTIMENTOS</h3>
+                    <p class="invest">0.00</p>
+                    <input class="botaoSimular" type="submit" value="Simule agora" onclick="simular()">
+                </div>
+            </div>
+        </article>
+        <aside>
+            <div class="progagandas">
+                <h2>Cartão PedrãoBank PLATINUM</h2>
+                <div class="cartao">
+                        <img src="imagens/cartaodecredito.png" alt="fotoCartao">
+                        <p>O Cartão Platinum, um verdadeiro ícone de elegância e modernidade, destaca-se pelo seu design sofisticado em preto e laranja. Ostentando um logo exclusivo que reflete inovação e dinamismo, este cartão redefine a experiência financeira. E o melhor de tudo: ele é sem anuidade, oferecendo todos os benefícios de um cartão Platinum sem custos adicionais. Experimente a liberdade de um cartão premium que se adapta ao seu estilo de vida.</p>
+                        
+                    
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div class="contato">
+            <h4>Contato:</h4>
+            <div class="contato-info"><img src="imagens/whatsapp 25x25.png" alt="whatsApp"> <p>(35) 99774-1273</p></div>
+            <div class="contato-info"><img src="imagens/instagram 28x28.png" alt="logoInstagram"><p><a href="https://www.instagram.com/pedro.otavio_1" target="_blank">pedro.otavio_1</a></p></div>
+            <div class="contato-info"><img src="imagens/email.png" alt="logoEmail"><p>pedrodozza2018@gmail.com</p></div>
+        </div>
+        <div class="sobreNos">
+            <h4>Sobre nós:</h4>
+            <p>Desde 2000, comprometidos com sua segurança e administrando seu dinheiro.</p>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
