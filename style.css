@@ -160,7 +160,7 @@ footer a{
     position: absolute;
     right: 200px;
 }
-@media(min-width: 300px){
+@media(max-width: 500px){
     body{
         background-image: none;
         background-color: black;
@@ -249,7 +249,7 @@ footer img{
 }
 }
 
-@media(min-width: 768px){
+@media(max-width: 1400px){
     body{
         background-image: none;
         background-color: black;
